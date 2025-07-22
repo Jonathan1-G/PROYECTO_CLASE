@@ -112,7 +112,7 @@
             this.pictureBox2.TabIndex = 99;
             this.pictureBox2.TabStop = false;
             // 
-            // Modulo_Matricula
+            // Lista_Matricula
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -124,8 +124,8 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.TxtFiltrado);
             this.Controls.Add(this.DGVMatricula);
-            this.Name = "Modulo_Matricula";
-            this.Text = "Modulo_Matricula";
+            this.Name = "Lista_Matricula";
+            this.Text = "Lista_Matricula";
             ((System.ComponentModel.ISupportInitialize)(this.DGVMatricula)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

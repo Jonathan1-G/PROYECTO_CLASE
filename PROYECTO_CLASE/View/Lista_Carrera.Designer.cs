@@ -115,7 +115,7 @@
             this.BtnAgregar.UseVisualStyleBackColor = false;
             this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
             // 
-            // Modulo_Carrera
+            // Lista_Carrera
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -127,8 +127,8 @@
             this.Controls.Add(this.BtnAgregar);
             this.Controls.Add(this.TxtFiltrado);
             this.Controls.Add(this.DGVCarrera);
-            this.Name = "Modulo_Carrera";
-            this.Text = "Modulo_Carrera";
+            this.Name = "Lista_Carrera";
+            this.Text = "Lista_Carrera";
             ((System.ComponentModel.ISupportInitialize)(this.DGVCarrera)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

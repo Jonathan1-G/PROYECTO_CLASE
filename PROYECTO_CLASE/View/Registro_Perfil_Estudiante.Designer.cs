@@ -59,20 +59,18 @@
             this.label1.AutoSize = true;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(18, 14);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(591, 31);
+            this.label1.Size = new System.Drawing.Size(410, 22);
             this.label1.TabIndex = 9;
             this.label1.Text = "INICIO > INFORMACION > PERFIL ESTUDIANTE";
             // 
             // CBCarrera
             // 
             this.CBCarrera.FormattingEnabled = true;
-            this.CBCarrera.Location = new System.Drawing.Point(890, 135);
-            this.CBCarrera.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CBCarrera.Location = new System.Drawing.Point(593, 88);
             this.CBCarrera.Name = "CBCarrera";
-            this.CBCarrera.Size = new System.Drawing.Size(340, 28);
+            this.CBCarrera.Size = new System.Drawing.Size(228, 21);
             this.CBCarrera.TabIndex = 62;
             this.CBCarrera.SelectedIndexChanged += new System.EventHandler(this.CBCarrera_SelectedIndexChanged);
             // 
@@ -81,69 +79,61 @@
             this.label15.AutoSize = true;
             this.label15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(717, 135);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Location = new System.Drawing.Point(478, 88);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(136, 31);
+            this.label15.Size = new System.Drawing.Size(89, 20);
             this.label15.TabIndex = 59;
             this.label15.Text = "CARRERA";
             // 
             // CBSede
             // 
             this.CBSede.FormattingEnabled = true;
-            this.CBSede.Location = new System.Drawing.Point(890, 197);
-            this.CBSede.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CBSede.Location = new System.Drawing.Point(593, 128);
             this.CBSede.Name = "CBSede";
-            this.CBSede.Size = new System.Drawing.Size(340, 28);
+            this.CBSede.Size = new System.Drawing.Size(228, 21);
             this.CBSede.TabIndex = 56;
             this.CBSede.SelectedIndexChanged += new System.EventHandler(this.CBSede_SelectedIndexChanged);
             // 
             // TxtCorreo
             // 
-            this.TxtCorreo.Location = new System.Drawing.Point(890, 301);
-            this.TxtCorreo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtCorreo.Location = new System.Drawing.Point(593, 196);
             this.TxtCorreo.Name = "TxtCorreo";
-            this.TxtCorreo.Size = new System.Drawing.Size(464, 26);
+            this.TxtCorreo.Size = new System.Drawing.Size(311, 20);
             this.TxtCorreo.TabIndex = 55;
             // 
             // TxtTelefono
             // 
-            this.TxtTelefono.Location = new System.Drawing.Point(890, 247);
-            this.TxtTelefono.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtTelefono.Location = new System.Drawing.Point(593, 161);
             this.TxtTelefono.Name = "TxtTelefono";
-            this.TxtTelefono.Size = new System.Drawing.Size(464, 26);
+            this.TxtTelefono.Size = new System.Drawing.Size(311, 20);
             this.TxtTelefono.TabIndex = 54;
             // 
             // TxtIdentidad
             // 
-            this.TxtIdentidad.Location = new System.Drawing.Point(206, 303);
-            this.TxtIdentidad.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtIdentidad.Location = new System.Drawing.Point(137, 197);
             this.TxtIdentidad.Name = "TxtIdentidad";
-            this.TxtIdentidad.Size = new System.Drawing.Size(464, 26);
+            this.TxtIdentidad.Size = new System.Drawing.Size(311, 20);
             this.TxtIdentidad.TabIndex = 52;
             // 
             // TxtApellido
             // 
-            this.TxtApellido.Location = new System.Drawing.Point(206, 245);
-            this.TxtApellido.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtApellido.Location = new System.Drawing.Point(137, 159);
             this.TxtApellido.Name = "TxtApellido";
-            this.TxtApellido.Size = new System.Drawing.Size(464, 26);
+            this.TxtApellido.Size = new System.Drawing.Size(311, 20);
             this.TxtApellido.TabIndex = 48;
             // 
             // TxtNombre
             // 
-            this.TxtNombre.Location = new System.Drawing.Point(206, 194);
-            this.TxtNombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtNombre.Location = new System.Drawing.Point(137, 126);
             this.TxtNombre.Name = "TxtNombre";
-            this.TxtNombre.Size = new System.Drawing.Size(464, 26);
+            this.TxtNombre.Size = new System.Drawing.Size(311, 20);
             this.TxtNombre.TabIndex = 47;
             // 
             // txtIdAlum
             // 
-            this.txtIdAlum.Location = new System.Drawing.Point(206, 144);
-            this.txtIdAlum.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtIdAlum.Location = new System.Drawing.Point(137, 94);
             this.txtIdAlum.Name = "txtIdAlum";
-            this.txtIdAlum.Size = new System.Drawing.Size(464, 26);
+            this.txtIdAlum.Size = new System.Drawing.Size(311, 20);
             this.txtIdAlum.TabIndex = 46;
             // 
             // label12
@@ -151,10 +141,9 @@
             this.label12.AutoSize = true;
             this.label12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(717, 318);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(478, 207);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(126, 31);
+            this.label12.Size = new System.Drawing.Size(83, 20);
             this.label12.TabIndex = 45;
             this.label12.Text = "CORREO";
             // 
@@ -163,10 +152,9 @@
             this.label11.AutoSize = true;
             this.label11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(717, 255);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(478, 166);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(155, 31);
+            this.label11.Size = new System.Drawing.Size(99, 20);
             this.label11.TabIndex = 44;
             this.label11.Text = "TELEFONO";
             // 
@@ -175,10 +163,9 @@
             this.label9.AutoSize = true;
             this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(717, 197);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(478, 128);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(84, 31);
+            this.label9.Size = new System.Drawing.Size(55, 20);
             this.label9.TabIndex = 42;
             this.label9.Text = "SEDE";
             // 
@@ -187,10 +174,9 @@
             this.label7.AutoSize = true;
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(18, 300);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(12, 195);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(152, 31);
+            this.label7.Size = new System.Drawing.Size(97, 20);
             this.label7.TabIndex = 41;
             this.label7.Text = "IDENTIDAD";
             // 
@@ -199,10 +185,9 @@
             this.label3.AutoSize = true;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(18, 242);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(12, 157);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(138, 31);
+            this.label3.Size = new System.Drawing.Size(89, 20);
             this.label3.TabIndex = 37;
             this.label3.Text = "APELLIDO";
             // 
@@ -211,10 +196,9 @@
             this.label2.AutoSize = true;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(18, 191);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(12, 124);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(127, 31);
+            this.label2.Size = new System.Drawing.Size(83, 20);
             this.label2.TabIndex = 36;
             this.label2.Text = "NOMBRE";
             // 
@@ -223,10 +207,9 @@
             this.label13.AutoSize = true;
             this.label13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(18, 140);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(12, 91);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(155, 31);
+            this.label13.Size = new System.Drawing.Size(101, 20);
             this.label13.TabIndex = 35;
             this.label13.Text = "ID ALUMNO";
             // 
@@ -235,10 +218,9 @@
             this.BtnEdicion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnEdicion.BackColor = System.Drawing.Color.LightSalmon;
             this.BtnEdicion.Font = new System.Drawing.Font("Microsoft YaHei", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEdicion.Location = new System.Drawing.Point(82, 435);
-            this.BtnEdicion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnEdicion.Location = new System.Drawing.Point(55, 283);
             this.BtnEdicion.Name = "BtnEdicion";
-            this.BtnEdicion.Size = new System.Drawing.Size(300, 110);
+            this.BtnEdicion.Size = new System.Drawing.Size(200, 72);
             this.BtnEdicion.TabIndex = 63;
             this.BtnEdicion.Text = "MODO EDICION";
             this.BtnEdicion.UseVisualStyleBackColor = false;
@@ -249,10 +231,9 @@
             this.BtnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnGuardar.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.BtnGuardar.Font = new System.Drawing.Font("Microsoft YaHei", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGuardar.Location = new System.Drawing.Point(543, 435);
-            this.BtnGuardar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnGuardar.Location = new System.Drawing.Point(362, 283);
             this.BtnGuardar.Name = "BtnGuardar";
-            this.BtnGuardar.Size = new System.Drawing.Size(300, 110);
+            this.BtnGuardar.Size = new System.Drawing.Size(200, 72);
             this.BtnGuardar.TabIndex = 64;
             this.BtnGuardar.Text = "GUARDAR EDICION";
             this.BtnGuardar.UseVisualStyleBackColor = false;
@@ -260,18 +241,16 @@
             // 
             // TxtIdCarrera
             // 
-            this.TxtIdCarrera.Location = new System.Drawing.Point(1276, 135);
-            this.TxtIdCarrera.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtIdCarrera.Location = new System.Drawing.Point(851, 88);
             this.TxtIdCarrera.Name = "TxtIdCarrera";
-            this.TxtIdCarrera.Size = new System.Drawing.Size(145, 26);
+            this.TxtIdCarrera.Size = new System.Drawing.Size(98, 20);
             this.TxtIdCarrera.TabIndex = 65;
             // 
             // TxtIdSede
             // 
-            this.TxtIdSede.Location = new System.Drawing.Point(1276, 198);
-            this.TxtIdSede.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtIdSede.Location = new System.Drawing.Point(851, 129);
             this.TxtIdSede.Name = "TxtIdSede";
-            this.TxtIdSede.Size = new System.Drawing.Size(145, 26);
+            this.TxtIdSede.Size = new System.Drawing.Size(98, 20);
             this.TxtIdSede.TabIndex = 66;
             // 
             // pictureBox2
@@ -279,19 +258,18 @@
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(1003, 366);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(669, 238);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(313, 257);
+            this.pictureBox2.Size = new System.Drawing.Size(210, 168);
             this.pictureBox2.TabIndex = 101;
             this.pictureBox2.TabStop = false;
             // 
-            // Perfil_Estudiante
+            // Registro_Perfil_Estudiante
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orange;
-            this.ClientSize = new System.Drawing.Size(1459, 637);
+            this.ClientSize = new System.Drawing.Size(913, 414);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.TxtIdSede);
             this.Controls.Add(this.TxtIdCarrera);
@@ -314,9 +292,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Perfil_Estudiante";
-            this.Text = "Perfil_Estudiante";
+            this.Name = "Registro_Perfil_Estudiante";
+            this.Text = "Registro_Perfil_Estudiante";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

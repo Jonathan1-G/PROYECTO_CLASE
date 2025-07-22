@@ -49,8 +49,8 @@
             // 
             // DGVCatedratico
             // 
-            this.DGVCatedratico.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.DGVCatedratico.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DGVCatedratico.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVCatedratico.Location = new System.Drawing.Point(12, 98);
@@ -115,7 +115,7 @@
             this.BtnAgregar.UseVisualStyleBackColor = false;
             this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
             // 
-            // Modulo_Catedratico
+            // Lista_Catedratico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -127,8 +127,8 @@
             this.Controls.Add(this.BtnAgregar);
             this.Controls.Add(this.TxtFiltrado);
             this.Controls.Add(this.DGVCatedratico);
-            this.Name = "Modulo_Catedratico";
-            this.Text = "Modulo_Catedratico";
+            this.Name = "Lista_Catedratico";
+            this.Text = "Lista_Catedratico";
             ((System.ComponentModel.ISupportInitialize)(this.DGVCatedratico)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

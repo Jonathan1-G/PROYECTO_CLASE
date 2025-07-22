@@ -368,7 +368,7 @@
             this.pictureBox2.TabIndex = 114;
             this.pictureBox2.TabStop = false;
             // 
-            // Catedratico_Form
+            // Registro_Catedratico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -403,8 +403,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Catedratico_Form";
-            this.Text = "Catedratico_Form";
+            this.Name = "Registro_Catedratico";
+            this.Text = "Registro_Catedratico";
             this.Load += new System.EventHandler(this.Catedratico_Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

@@ -49,8 +49,8 @@
             // 
             // DGVUsuario
             // 
-            this.DGVUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.DGVUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DGVUsuario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVUsuario.Location = new System.Drawing.Point(12, 98);
@@ -115,7 +115,7 @@
             this.BtnAgregar.UseVisualStyleBackColor = false;
             this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
             // 
-            // Modulo_Usuario
+            // Lista_Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -127,8 +127,8 @@
             this.Controls.Add(this.BtnAgregar);
             this.Controls.Add(this.TxtFiltrado);
             this.Controls.Add(this.DGVUsuario);
-            this.Name = "Modulo_Usuario";
-            this.Text = "Modulo_Usuario";
+            this.Name = "Lista_Usuario";
+            this.Text = "Lista_Usuario";
             ((System.ComponentModel.ISupportInitialize)(this.DGVUsuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

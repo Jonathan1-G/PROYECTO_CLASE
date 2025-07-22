@@ -52,20 +52,18 @@
             "ADMIN",
             "CATEDRATICO",
             "ESTUDIANTE"});
-            this.CBRol.Location = new System.Drawing.Point(238, 213);
-            this.CBRol.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CBRol.Location = new System.Drawing.Point(159, 138);
             this.CBRol.Name = "CBRol";
-            this.CBRol.Size = new System.Drawing.Size(340, 28);
+            this.CBRol.Size = new System.Drawing.Size(228, 21);
             this.CBRol.TabIndex = 88;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(22, 217);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Location = new System.Drawing.Point(15, 141);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(65, 29);
+            this.label14.Size = new System.Drawing.Size(42, 18);
             this.label14.TabIndex = 87;
             this.label14.Text = "ROL";
             // 
@@ -73,10 +71,9 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(364, 29);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(243, 19);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(162, 34);
+            this.label13.Size = new System.Drawing.Size(109, 24);
             this.label13.TabIndex = 84;
             this.label13.Text = "USUARIO";
             this.label13.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -85,10 +82,9 @@
             // 
             this.CKBMostrar.AutoSize = true;
             this.CKBMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CKBMostrar.Location = new System.Drawing.Point(733, 275);
-            this.CKBMostrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CKBMostrar.Location = new System.Drawing.Point(489, 179);
             this.CKBMostrar.Name = "CKBMostrar";
-            this.CKBMostrar.Size = new System.Drawing.Size(127, 33);
+            this.CKBMostrar.Size = new System.Drawing.Size(86, 22);
             this.CKBMostrar.TabIndex = 83;
             this.CKBMostrar.Text = "Mostrar";
             this.CKBMostrar.UseVisualStyleBackColor = true;
@@ -96,37 +92,33 @@
             // 
             // TxtContrasena
             // 
-            this.TxtContrasena.Location = new System.Drawing.Point(238, 275);
-            this.TxtContrasena.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtContrasena.Location = new System.Drawing.Point(159, 179);
             this.TxtContrasena.Name = "TxtContrasena";
-            this.TxtContrasena.Size = new System.Drawing.Size(464, 26);
+            this.TxtContrasena.Size = new System.Drawing.Size(311, 20);
             this.TxtContrasena.TabIndex = 77;
             this.TxtContrasena.UseSystemPasswordChar = true;
             // 
             // TxtUsuario
             // 
-            this.TxtUsuario.Location = new System.Drawing.Point(238, 151);
-            this.TxtUsuario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtUsuario.Location = new System.Drawing.Point(159, 98);
             this.TxtUsuario.Name = "TxtUsuario";
-            this.TxtUsuario.Size = new System.Drawing.Size(464, 26);
+            this.TxtUsuario.Size = new System.Drawing.Size(311, 20);
             this.TxtUsuario.TabIndex = 76;
             // 
             // TxtIdUsuario
             // 
-            this.TxtIdUsuario.Location = new System.Drawing.Point(238, 98);
-            this.TxtIdUsuario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtIdUsuario.Location = new System.Drawing.Point(159, 64);
             this.TxtIdUsuario.Name = "TxtIdUsuario";
-            this.TxtIdUsuario.Size = new System.Drawing.Size(163, 26);
+            this.TxtIdUsuario.Size = new System.Drawing.Size(110, 20);
             this.TxtIdUsuario.TabIndex = 75;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(22, 274);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(15, 178);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(190, 29);
+            this.label6.Size = new System.Drawing.Size(121, 18);
             this.label6.TabIndex = 66;
             this.label6.Text = "CONTRASENA";
             // 
@@ -134,10 +126,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(22, 162);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(15, 105);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(127, 29);
+            this.label5.Size = new System.Drawing.Size(82, 18);
             this.label5.TabIndex = 65;
             this.label5.Text = "USUARIO";
             // 
@@ -145,10 +136,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(22, 109);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(15, 71);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(159, 29);
+            this.label4.Size = new System.Drawing.Size(103, 18);
             this.label4.TabIndex = 64;
             this.label4.Text = "ID USUARIO";
             // 
@@ -158,10 +148,9 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = global::PROYECTO_CLASE.Properties.Resources.icons8_información_50;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(312, 375);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(208, 244);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(234, 83);
+            this.button1.Size = new System.Drawing.Size(156, 54);
             this.button1.TabIndex = 86;
             this.button1.Text = "CANCELAR";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -175,10 +164,9 @@
             this.BtnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAgregar.Image = ((System.Drawing.Image)(resources.GetObject("BtnAgregar.Image")));
             this.BtnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnAgregar.Location = new System.Drawing.Point(27, 375);
-            this.BtnAgregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnAgregar.Location = new System.Drawing.Point(18, 244);
             this.BtnAgregar.Name = "BtnAgregar";
-            this.BtnAgregar.Size = new System.Drawing.Size(234, 83);
+            this.BtnAgregar.Size = new System.Drawing.Size(156, 54);
             this.BtnAgregar.TabIndex = 85;
             this.BtnAgregar.Text = "GUARDAR";
             this.BtnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -190,18 +178,19 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(629, 333);
+            this.pictureBox1.Location = new System.Drawing.Point(419, 216);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(185, 166);
+            this.pictureBox1.Size = new System.Drawing.Size(123, 108);
             this.pictureBox1.TabIndex = 89;
             this.pictureBox1.TabStop = false;
             // 
-            // Usuario_Form
+            // Registro_Usuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(876, 518);
+            this.ClientSize = new System.Drawing.Size(584, 337);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.CBRol);
             this.Controls.Add(this.label14);
@@ -216,10 +205,9 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Usuario_Form";
+            this.Name = "Registro_Usuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Usuario_Form";
+            this.Text = "Registro_Usuario";
             this.Load += new System.EventHandler(this.Usuario_Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

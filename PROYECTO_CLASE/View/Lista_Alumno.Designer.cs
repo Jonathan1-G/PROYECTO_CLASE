@@ -41,8 +41,8 @@
             // 
             // DGVAlumno
             // 
-            this.DGVAlumno.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.DGVAlumno.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DGVAlumno.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVAlumno.Location = new System.Drawing.Point(16, 98);
@@ -116,7 +116,7 @@
             this.BtnAgregar.UseVisualStyleBackColor = false;
             this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
             // 
-            // Modulo_Alumno
+            // Lista_Alumno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -128,9 +128,9 @@
             this.Controls.Add(this.BtnAgregar);
             this.Controls.Add(this.TxtFiltrado);
             this.Controls.Add(this.DGVAlumno);
-            this.Name = "Modulo_Alumno";
+            this.Name = "Lista_Alumno";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Modulo_Alumno";
+            this.Text = "Lista_Alumno";
             ((System.ComponentModel.ISupportInitialize)(this.DGVAlumno)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

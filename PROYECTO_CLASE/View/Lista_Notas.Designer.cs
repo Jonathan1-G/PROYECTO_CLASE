@@ -113,7 +113,7 @@
             this.pictureBox1.TabIndex = 101;
             this.pictureBox1.TabStop = false;
             // 
-            // Modulo_Notas
+            // Lista_Notas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -125,8 +125,8 @@
             this.Controls.Add(this.TxtFiltrado);
             this.Controls.Add(this.DGVNotas);
             this.Controls.Add(this.label1);
-            this.Name = "Modulo_Notas";
-            this.Text = "Modulo_Notas";
+            this.Name = "Lista_Notas";
+            this.Text = "Lista_Notas";
             ((System.ComponentModel.ISupportInitialize)(this.DGVNotas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -117,7 +117,7 @@
             this.BtnAgregar.UseVisualStyleBackColor = false;
             this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
             // 
-            // Modulo_Campus
+            // Lista_Campus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -129,8 +129,8 @@
             this.Controls.Add(this.BtnAgregar);
             this.Controls.Add(this.TxtFiltrado);
             this.Controls.Add(this.DGVCampus);
-            this.Name = "Modulo_Campus";
-            this.Text = "Modulo_Campus";
+            this.Name = "Lista_Campus";
+            this.Text = "Lista_Campus";
             ((System.ComponentModel.ISupportInitialize)(this.DGVCampus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

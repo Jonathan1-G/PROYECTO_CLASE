@@ -286,7 +286,7 @@
             this.label7.TabIndex = 97;
             this.label7.Text = "PERIODO";
             // 
-            // Edicion_Notas
+            // Registro_Edicion_Notas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -316,8 +316,8 @@
             this.Controls.Add(this.TxtCodigo);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Name = "Edicion_Notas";
-            this.Text = "Edicion_Notas";
+            this.Name = "Registro_Edicion_Notas";
+            this.Text = "Registro_Edicion_Notas";
             this.ResumeLayout(false);
             this.PerformLayout();
 
