@@ -90,7 +90,7 @@ namespace PROYECTO_CLASE.View
         }
         void ValidaciondeUsuario ()
         {
-            if(Modulo_ParametrosActivos.RolJop == "ALUMNO(A)" )
+            if(Modulo_ParametrosActivos.RolJop == "Estudiante" )
             {
                 BtnParametros.Visible = false;
                 btnPMaestro.Visible = false;

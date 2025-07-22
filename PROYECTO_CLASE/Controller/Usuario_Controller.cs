@@ -73,7 +73,7 @@ namespace PROYECTO_CLASE.Controller
                 using (SqlConnection Con = new Conexion().GetConexion())
                 {
                     Con.Open();
-                    string sql = "update Usuario set Usuario = '" + Usu.Usuario + "', Rol = '" + Usu.Rol + "', Contrasena = '" +Usu.Contrasena+ "' where IdUsuario = '" + Usu.IdUsuario + "'";
+                    string sql = "update Usuario set Usuario = '" + Usu.Usuario + "', Rol = '" + Usu.Rol + "', Contrasena = '" + Usu.Contrasena+ "' where IdUsuario = '" + Usu.IdUsuario + "'";
 
                     using (SqlCommand cmd = new SqlCommand(sql, Con))
                     {

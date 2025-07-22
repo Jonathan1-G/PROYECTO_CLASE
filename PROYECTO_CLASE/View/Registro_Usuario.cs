@@ -25,21 +25,22 @@ namespace PROYECTO_CLASE.View
          
         }
         
-        public Registro_Usuario(string IdUsuario)
+        public Registro_Usuario(string Usuario)
         {
             InitializeComponent();
             Modo = "Editando";
-        
+
+            TxtUsuario.Text = Usuario;
+            
            
-            TxtIdUsuario.Text = IdUsuario;
+
+            Modulo_Usuario Usu = new Usuario_Controller().ConsultarUsuario(TxtUsuario.Text);
+
+            TxtIdUsuario.Text = Usu.IdUsuario;
             TxtIdUsuario.Enabled = false;
 
-            Modulo_Usuario Usu = new Usuario_Controller().ConsultarUsuario(TxtIdUsuario.Text);
+    
 
-
-
-            TxtUsuario.Text = Usu.Usuario;
-           
             CBRol.Text = Usu.Rol;
             TxtContrasena.Text = Usu.Contrasena;
 
