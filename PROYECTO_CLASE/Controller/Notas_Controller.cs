@@ -47,7 +47,7 @@ namespace PROYECTO_CLASE.Controller
                 using (SqlConnection Con = new Conexion().GetConexion())
                 {
                     Con.Open();
-                    string sql = "insert into Notas(IdAlumno,Alumno,Codigo,Clase,Catedratico, IdCatedratico ,Estatus,UV,Nota,Anio,Periodo) values ('" + Not.IdAlumno + "','" + Not.Alumno + "','" + Not.Codigo + "','" + Not.Clase + "','" + Not.Catedratico + "','" + Not.IdCatedratico + "','" + Not.Estatus + "','" + Not.UV + "','" + Not.Nota + "','" + Not.Anio + "','" + Not.Periodo + "')";
+                    string sql = "insert into Notas(IdAlumno,Alumno,Codigo,Clases,Catedratico, IdCatedratico ,Estatus,UV,Nota,Anio,Periodo) values ('" + Not.IdAlumno + "','" + Not.Alumno + "','" + Not.Codigo + "','" + Not.Clase + "','" + Not.Catedratico + "','" + Not.IdCatedratico + "','" + Not.Estatus + "','" + Not.UV + "','" + Not.Nota + "','" + Not.Anio + "','" + Not.Periodo + "')";
 
                     using (SqlCommand cmd = new SqlCommand(sql, Con))
                     {
@@ -73,7 +73,7 @@ namespace PROYECTO_CLASE.Controller
                 using (SqlConnection Con = new Conexion().GetConexion())
                 {
                     Con.Open();
-                    string sql = "update Matricula set Alumno = '" + Not.Alumno + "',Codigo = '" + Not.Codigo + "', Clase = '" + Not.Clase + "',Catedratico = '" + Not.Catedratico + "', IdCatedratico = '" + Not.IdCatedratico + "' , Estatus = '" + Not.Estatus + "', UV = '" + Not.UV + "', Nota = '" + Not.Nota + "', Anio =  '" + Not.Anio + "', Periodo = '" + Not.Periodo + "' where IdAlumno = '" + Not.IdAlumno + "'";
+                    string sql = "update Notas set Alumno = '" + Not.Alumno + "',Codigo = '" + Not.Codigo + "', Clases = '" + Not.Clase + "',Catedratico = '" + Not.Catedratico + "', IdCatedratico = '" + Not.IdCatedratico + "' , Estatus = '" + Not.Estatus + "', UV = '" + Not.UV + "', Nota = '" + Not.Nota + "', Anio =  '" + Not.Anio + "', Periodo = '" + Not.Periodo + "' where IdAlumno = '" + Not.IdAlumno + "'";
 
                     using (SqlCommand cmd = new SqlCommand(sql, Con))
                     {

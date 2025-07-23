@@ -50,7 +50,7 @@ namespace PROYECTO_CLASE.View
                 BtnMatricular.Visible = true;
             }
             else
-                if(Modulo_ParametrosActivos.RolJop == "ALUMNO(A)")
+                if(Modulo_ParametrosActivos.RolJop == "Estudiante")
             {
                 BtnMatricular.Visible=false;
             }
@@ -64,14 +64,14 @@ namespace PROYECTO_CLASE.View
 
         private void BtnMatricular_Click(object sender, EventArgs e)
         {
-            Registro_Edicion_Notas Formulario = new Registro_Edicion_Notas(DGVNotas.SelectedCells[0].Value.ToString());
+            Registro_Edicion_Notas Formulario = new Registro_Edicion_Notas(DGVNotas.SelectedCells[1].Value.ToString());
             Formulario.Padre = this;
             Formulario.Show();
         }
 
         private void DGVNotas_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-            if(Modulo_ParametrosActivos.RolJop == "ALUMNO(A)")
+            if(Modulo_ParametrosActivos.RolJop == "Estudiante")
             {
                 BtnMatricular.Visible = false;
             }

@@ -26,7 +26,7 @@ namespace PROYECTO_CLASE.View
             TxtClase.Enabled = false;
 
             Modulo_Clases Cla = new Clases_Controller().ConsultarClases(TxtClase.Text);
-
+            
             TxtCodigo.Text = Cla.IdAsignatura;
             TxtCodigo.Enabled = false;
             TxtSede.Text = Cla.Sede;

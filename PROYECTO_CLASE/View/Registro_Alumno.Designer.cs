@@ -327,7 +327,7 @@
             // 
             this.CBRol.FormattingEnabled = true;
             this.CBRol.Items.AddRange(new object[] {
-            "ALUMNO(A)"});
+            "Estudiante"});
             this.CBRol.Location = new System.Drawing.Point(153, 205);
             this.CBRol.Name = "CBRol";
             this.CBRol.Size = new System.Drawing.Size(228, 21);
