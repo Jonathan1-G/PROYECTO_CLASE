@@ -102,6 +102,15 @@ namespace PROYECTO_CLASE.View
                 BtnPEst.Visible = false;
                 BtnMatriculas.Visible = false;
             }
+            else
+                if(Modulo_ParametrosActivos.RolJop == "ADMIN")
+            {
+                lblUsuario.Visible = false;
+                lblPlan.Visible = false;
+                lblSede.Visible = false;
+                lblRol.Text = Modulo_ParametrosActivos.RolJop;
+                LblBienvenida.Text = " Bienvenido ";
+            }
         }
             
 
