@@ -27,7 +27,21 @@ namespace PROYECTO_CLASE.View
         public void CargarDatosCla()
         {
             new Clases_Controller().ListarClases();
+            // Agregamos una columna para mostrar si ya está matriculada
+            if (!Modulo_Clases.GetClases.Columns.Contains("Matriculada"))
+                Modulo_Clases.GetClases.Columns.Add("Matriculada", typeof(bool));
+
+            string idAlumno = Modulo_ParametrosActivos.IdAlumnoJop;
+            var controller = new Clases_Controller();
+
+            foreach (DataRow row in Modulo_Clases.GetClases.Rows)
+            {
+                string Codigo = row["IdAsignatura"].ToString();
+                bool estaMatriculada = controller.VerificarClaseMatriculada(Codigo, idAlumno);
+                row["Matriculada"] = estaMatriculada;
+            }
             DGVClases_Ofertadas.DataSource = Modulo_Clases.GetClases;
+
         }
          void FiltradoGeneral()
         {
@@ -69,6 +83,16 @@ namespace PROYECTO_CLASE.View
 
         private void BtnMatricular_Click(object sender, EventArgs e)
         {
+            string IdAsignatura = DGVClases_Ofertadas.SelectedRows[0].Cells["IdAsignatura"].Value.ToString();
+            string idAlumno = Modulo_ParametrosActivos.IdAlumnoJop;
+
+            var controller = new Clases_Controller();
+            if (controller.VerificarClaseMatriculada(IdAsignatura, idAlumno))
+            {
+                MessageBox.Show("Ya estás matriculado en esta clase. Si deseas cambiarla, primero debes desmatricularla.");
+                return;
+            }
+
             Registro_ClaseOfertada Formulario = new Registro_ClaseOfertada(DGVClases_Ofertadas.SelectedCells[1].Value.ToString());
             Formulario.Padre = this;
             Formulario.Show();

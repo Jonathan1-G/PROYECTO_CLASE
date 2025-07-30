@@ -17,6 +17,7 @@ namespace PROYECTO_CLASE.View
     {
 
         public Lista_Clases_Ofertadas Padre;
+        string Filtro = Modulo_ParametrosActivos.CarreraJop;
         public Registro_ClaseOfertada(string Asignatura)
         {
             InitializeComponent();
@@ -122,11 +123,15 @@ namespace PROYECTO_CLASE.View
                 MessageBox.Show(error.Message);
             }
         }
-                
 
+        void FiltradoGeneral()
+        {
+            Modulo_Clases.GetClases.DefaultView.RowFilter = $"Carrera like'%{Filtro}%'";
+        }
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
             SalvarRegistros();
+            FiltradoGeneral();
         }
 
         private void button1_Click(object sender, EventArgs e)

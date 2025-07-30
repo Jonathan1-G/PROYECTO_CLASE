@@ -15,19 +15,20 @@ namespace PROYECTO_CLASE.View
     public partial class Registro_Edicion_Notas : Form
     {
         public Lista_Notas Padre;
-        public Registro_Edicion_Notas(string Alumno)
+        string FiltroCat = Modulo_ParametrosActivos.IdcatedraticoJop;
+        public Registro_Edicion_Notas(string IdAlumno, string Codigo)
         {
             InitializeComponent();
 
-            TxtAlumno.Text = Alumno;
-            TxtAlumno.Enabled = false;
-
-            Modulo_Notas Not = new Notas_Controller().ConsultarNotas(TxtAlumno.Text);
-
-            TxtIdAlumno.Text = Not.IdAlumno;
+            TxtIdAlumno.Text = IdAlumno;
             TxtIdAlumno.Enabled = false;
-            TxtCodigo.Text = Not.Codigo;
+            TxtCodigo.Text = Codigo;
             TxtCodigo.Enabled = false;
+
+            Modulo_Notas Not = new Notas_Controller().ConsultarNotas(TxtIdAlumno.Text, TxtCodigo.Text);
+
+            TxtAlumno.Text = Not.Alumno;
+            TxtAlumno.Enabled = false;
             TxtClase.Text = Not.Clase;
             TxtClase.Enabled = false;
             TxtIdCATE.Text = Not.IdCatedratico;
@@ -84,9 +85,15 @@ namespace PROYECTO_CLASE.View
             }
         }
 
+       void cate()
+        {
+            Modulo_Notas.GetNotas.DefaultView.RowFilter = $"IdCatedratico like'%{FiltroCat}%'";
+        }
+
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
             SalvarRegistros();
+            cate();
         }
 
         private void button1_Click(object sender, EventArgs e)
