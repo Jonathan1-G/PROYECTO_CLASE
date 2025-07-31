@@ -17,6 +17,7 @@ namespace PROYECTO_CLASE.View
     {
 
         public Lista_Clases_Ofertadas Padre;
+        string Filtro = Modulo_ParametrosActivos.CarreraJop;
         public Registro_ClaseOfertada(string Asignatura)
         {
             InitializeComponent();
@@ -26,7 +27,7 @@ namespace PROYECTO_CLASE.View
             TxtClase.Enabled = false;
 
             Modulo_Clases Cla = new Clases_Controller().ConsultarClases(TxtClase.Text);
-            
+
             TxtCodigo.Text = Cla.IdAsignatura;
             TxtCodigo.Enabled = false;
             TxtSede.Text = Cla.Sede;
@@ -41,7 +42,7 @@ namespace PROYECTO_CLASE.View
             TxtFin.Enabled = false;
             TxtIdCate.Text = Cla.IdCatedratico;
             TxtIdCate.Enabled = false;
-            TxtCate.Text= Cla.Catedratico;
+            TxtCate.Text = Cla.Catedratico;
             TxtCate.Enabled = false;
 
             TxtIdAlumno.Text = Modulo_ParametrosActivos.IdAlumnoJop;
@@ -65,7 +66,7 @@ namespace PROYECTO_CLASE.View
                 Mat.Estatus = TxtEstatus.Text;
                 Mat.Inicio = TxtInicio.Text;
                 Mat.Fin = TxtFin.Text;
-                
+
                 Modulo_Notas Not = new Modulo_Notas();
 
                 Not.IdAlumno = TxtIdAlumno.Text;
@@ -76,7 +77,7 @@ namespace PROYECTO_CLASE.View
                 Not.IdCatedratico = TxtIdCate.Text;
                 Not.UV = TxtCredito.Text;
                 Not.Estatus = TxtEstatus.Text;
-                
+
                 Not.Nota = 0;
                 string Anio = Convert.ToString(Modulo_ParametrosActivos.FechaSistema.Year);
                 Not.Anio = Anio;
@@ -84,13 +85,13 @@ namespace PROYECTO_CLASE.View
 
                 if (Modulo_ParametrosActivos.FechaSistema.Month >= 1 && Modulo_ParametrosActivos.FechaSistema.Month <= 4)
                 {
-                    
+
                     Periodos = "1";
                     Not.Periodo = Periodos;
                 }
                 else
                if (Modulo_ParametrosActivos.FechaSistema.Month >= 5 && Modulo_ParametrosActivos.FechaSistema.Month <= 8)
-                {                    
+                {
                     Periodos = "2";
                     Not.Periodo = Periodos;
                 }
@@ -100,43 +101,42 @@ namespace PROYECTO_CLASE.View
                     Periodos = "3";
                     Not.Periodo = Periodos;
                 }
-                               
+
 
 
 
 
                 if (new ResumenMatricula_Controller().CrearMatricula(Mat) == true && new Notas_Controller().CrearNotas(Not) == true)
-                    {
-                        MessageBox.Show("Registros Agregado Exitosamente...!!");
-                        Padre.CargarDatosCla();
-                        this.Close();
+                {
+                    MessageBox.Show("Registros Agregado Exitosamente...!!");
+                    Padre.CargarDatosCla();
+                    this.Close();
                 }
                 else
                 {
                     MessageBox.Show("Error a Agregar Registros");
-                }                
-                
+                }
+
             }
             catch (Exception error)
             {
                 MessageBox.Show(error.Message);
             }
         }
-                
 
+        void FiltradoGeneral()
+        {
+            Modulo_Clases.GetClases.DefaultView.RowFilter = $"Carrera like'%{Filtro}%'";
+        }
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
             SalvarRegistros();
+            FiltradoGeneral();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

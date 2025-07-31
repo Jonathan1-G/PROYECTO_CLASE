@@ -310,7 +310,7 @@
             this.label12.Size = new System.Drawing.Size(77, 20);
             this.label12.TabIndex = 120;
             this.label12.Text = "Cancelar";
-            this.label12.Click += new System.EventHandler(this.label12_Click);
+           
             // 
             // pictureBox5
             // 

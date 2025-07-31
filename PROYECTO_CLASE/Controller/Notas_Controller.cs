@@ -73,7 +73,7 @@ namespace PROYECTO_CLASE.Controller
                 using (SqlConnection Con = new Conexion().GetConexion())
                 {
                     Con.Open();
-                    string sql = "update Notas set Alumno = '" + Not.Alumno + "',Codigo = '" + Not.Codigo + "', Clases = '" + Not.Clase + "',Catedratico = '" + Not.Catedratico + "', IdCatedratico = '" + Not.IdCatedratico + "' , Estatus = '" + Not.Estatus + "', UV = '" + Not.UV + "', Nota = '" + Not.Nota + "', Anio =  '" + Not.Anio + "', Periodo = '" + Not.Periodo + "' where IdAlumno = '" + Not.IdAlumno + "'";
+                    string sql = "update Notas set Alumno = '" + Not.Alumno + "', Clases = '" + Not.Clase + "',Catedratico = '" + Not.Catedratico + "', IdCatedratico = '" + Not.IdCatedratico + "' , Estatus = '" + Not.Estatus + "', UV = '" + Not.UV + "', Nota = '" + Not.Nota + "', Anio =  '" + Not.Anio + "', Periodo = '" + Not.Periodo + "' where IdAlumno = '" + Not.IdAlumno + "' AND Codigo = '" + Not.Codigo + "'";
 
                     using (SqlCommand cmd = new SqlCommand(sql, Con))
                     {
@@ -92,7 +92,7 @@ namespace PROYECTO_CLASE.Controller
             }
         }
         //Evento para Editar los Registros ya Existentes
-        public Modulo_Notas ConsultarNotas(string Alumno)
+        public Modulo_Notas ConsultarNotas(string IdAlumno, string Codigo)
         {
             try
             {
@@ -101,7 +101,7 @@ namespace PROYECTO_CLASE.Controller
                 {
                     Con.Open();
 
-                    string sql = "select * from Notas where Alumno = '" + Alumno + "'";
+                    string sql = "select * from Notas where IdAlumno = '" + IdAlumno + "' AND Codigo = '" + Codigo + "'";
 
                     using (SqlCommand cmd = new SqlCommand(sql, Con))
                     {
