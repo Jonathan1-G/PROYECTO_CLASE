@@ -154,5 +154,10 @@ namespace PROYECTO_CLASE.View
             if ((int)e.KeyChar == (int)Keys.Enter)
                 Entrando();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

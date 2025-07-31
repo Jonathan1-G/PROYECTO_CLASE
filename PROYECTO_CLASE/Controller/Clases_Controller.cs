@@ -146,29 +146,6 @@ namespace PROYECTO_CLASE.Controller
                 return null;
             }
         }
-
-        //Evento para verificar si la clase ya esta matriculada
-        public bool VerificarClaseMatriculada(string Codigo, string idAlumno)
-        {
-            try
-            {
-                using (SqlConnection Con = new Conexion().GetConexion())
-                {
-                    Con.Open();
-                    string sql = "Select Count(*) From Matricula WHERE Codigo = '" + Codigo + "' AND IdAlumno = '" + idAlumno + "'";
-                    using (SqlCommand cmd = new SqlCommand(sql, Con))
-                    {
-                        int count = (int)cmd.ExecuteScalar();
-                        return count > 0;
-                    }
-                }
-            }
-            catch (Exception error)
-            {
-                MessageBox.Show(error.Message);
-                return false;
-            }
-        }
         //Evento para Eliminar los Registros ya Existentes
         public bool EliminarClases(String IdAsignatura)
         {

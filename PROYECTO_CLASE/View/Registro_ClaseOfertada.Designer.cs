@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registro_ClaseOfertada));
             this.label13 = new System.Windows.Forms.Label();
             this.TxtIdAlumno = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,23 +47,33 @@
             this.label8 = new System.Windows.Forms.Label();
             this.TxtInicio = new System.Windows.Forms.TextBox();
             this.TxtFin = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.BtnAgregar = new System.Windows.Forms.Button();
             this.TxtCodigo = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.TxtCate = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.TxtIdCate = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.BtnAgregar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label14 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.SteelBlue;
             this.label13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label13.Font = new System.Drawing.Font("MS Reference Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.SystemColors.Control;
             this.label13.Location = new System.Drawing.Point(271, 18);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(170, 30);
@@ -236,38 +245,6 @@
             this.TxtFin.Size = new System.Drawing.Size(206, 20);
             this.TxtFin.TabIndex = 103;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.LightSalmon;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(143, 310);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 54);
-            this.button1.TabIndex = 105;
-            this.button1.Text = "CANCELAR";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // BtnAgregar
-            // 
-            this.BtnAgregar.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.BtnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAgregar.Image = ((System.Drawing.Image)(resources.GetObject("BtnAgregar.Image")));
-            this.BtnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnAgregar.Location = new System.Drawing.Point(468, 310);
-            this.BtnAgregar.Name = "BtnAgregar";
-            this.BtnAgregar.Size = new System.Drawing.Size(163, 54);
-            this.BtnAgregar.TabIndex = 104;
-            this.BtnAgregar.Text = "MATRICULAR";
-            this.BtnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnAgregar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BtnAgregar.UseVisualStyleBackColor = false;
-            this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
-            // 
             // TxtCodigo
             // 
             this.TxtCodigo.Location = new System.Drawing.Point(133, 182);
@@ -322,23 +299,116 @@
             this.label11.TabIndex = 110;
             this.label11.Text = "ID CATEDRATICO";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.SkyBlue;
+            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(224, 350);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(77, 20);
+            this.label12.TabIndex = 120;
+            this.label12.Text = "Cancelar";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox5.Image = global::PROYECTO_CLASE.Properties.Resources.Every_Monday_is_a_Blue_Monday;
+            this.pictureBox5.Location = new System.Drawing.Point(212, 51);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(281, 10);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 126;
+            this.pictureBox5.TabStop = false;
+            // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackColor = System.Drawing.Color.SteelBlue;
+            this.pictureBox2.BackgroundImage = global::PROYECTO_CLASE.Properties.Resources.educacion_en_linea;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(31, 9);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(75, 61);
+            this.pictureBox2.Size = new System.Drawing.Size(70, 63);
             this.pictureBox2.TabIndex = 112;
             this.pictureBox2.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.SkyBlue;
+            this.button1.BackgroundImage = global::PROYECTO_CLASE.Properties.Resources.boton;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(233, 296);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(59, 51);
+            this.button1.TabIndex = 105;
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // BtnAgregar
+            // 
+            this.BtnAgregar.BackColor = System.Drawing.Color.SkyBlue;
+            this.BtnAgregar.BackgroundImage = global::PROYECTO_CLASE.Properties.Resources.agregar_archivo3;
+            this.BtnAgregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnAgregar.Location = new System.Drawing.Point(443, 296);
+            this.BtnAgregar.Name = "BtnAgregar";
+            this.BtnAgregar.Size = new System.Drawing.Size(59, 51);
+            this.BtnAgregar.TabIndex = 104;
+            this.BtnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnAgregar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnAgregar.UseVisualStyleBackColor = false;
+            this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::PROYECTO_CLASE.Properties.Resources.Red_Barrel_S;
+            this.pictureBox1.Location = new System.Drawing.Point(-7, -6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(756, 76);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 118;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox3.Image = global::PROYECTO_CLASE.Properties.Resources.céu_azul2;
+            this.pictureBox3.Location = new System.Drawing.Point(-7, 287);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(756, 104);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 119;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.SkyBlue;
+            this.label14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(430, 350);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(85, 20);
+            this.label14.TabIndex = 127;
+            this.label14.Text = "Matricular";
             // 
             // Registro_ClaseOfertada
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Orange;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(742, 373);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.TxtIdCate);
             this.Controls.Add(this.label11);
@@ -367,9 +437,14 @@
             this.Controls.Add(this.TxtIdAlumno);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label13);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox3);
             this.Name = "Registro_ClaseOfertada";
             this.Text = "Registro_ClaseOfertada";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -405,5 +480,10 @@
         private System.Windows.Forms.TextBox TxtIdCate;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label label14;
     }
 }
