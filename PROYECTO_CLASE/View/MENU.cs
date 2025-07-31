@@ -258,6 +258,11 @@ namespace PROYECTO_CLASE.View
 
         }
 
+        private void panelcontenedor_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         /*Size = Screen.PrimaryScreen.WorkingArea.Size;
             Location = Screen.PrimaryScreen.WorkingArea.Location;*/
     }

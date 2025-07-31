@@ -62,5 +62,10 @@ namespace PROYECTO_CLASE.View
         {
             Filtrado();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

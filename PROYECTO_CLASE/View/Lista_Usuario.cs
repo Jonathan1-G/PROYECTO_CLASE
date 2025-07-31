@@ -78,5 +78,10 @@ namespace PROYECTO_CLASE.View
         {
             Filtrado();
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

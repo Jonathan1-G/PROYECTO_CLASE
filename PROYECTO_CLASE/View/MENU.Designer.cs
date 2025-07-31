@@ -96,7 +96,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Orange;
+            this.panel1.BackColor = System.Drawing.Color.Blue;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.BtnRestaurar);
             this.panel1.Controls.Add(this.BtnCerrar);
@@ -112,6 +112,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Modern No. 20", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Window;
             this.label1.Location = new System.Drawing.Point(12, 1);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(103, 31);
@@ -169,7 +170,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Orange;
+            this.panel2.BackColor = System.Drawing.Color.Blue;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 35);
             this.panel2.Name = "panel2";
@@ -210,6 +211,7 @@
             // 
             // BtnUsuario
             // 
+            this.BtnUsuario.BackColor = System.Drawing.Color.Blue;
             this.BtnUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnUsuario.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnUsuario.FlatAppearance.BorderSize = 0;
@@ -217,7 +219,7 @@
             this.BtnUsuario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.BtnUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnUsuario.ForeColor = System.Drawing.Color.Black;
+            this.BtnUsuario.ForeColor = System.Drawing.Color.White;
             this.BtnUsuario.Image = ((System.Drawing.Image)(resources.GetObject("BtnUsuario.Image")));
             this.BtnUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnUsuario.Location = new System.Drawing.Point(0, 220);
@@ -226,12 +228,12 @@
             this.BtnUsuario.TabIndex = 10;
             this.BtnUsuario.Text = "Agregar Usuario";
             this.BtnUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnUsuario.UseVisualStyleBackColor = true;
+            this.BtnUsuario.UseVisualStyleBackColor = false;
             this.BtnUsuario.Click += new System.EventHandler(this.BtnUsuario_Click);
             // 
             // BtnEstudiante
             // 
-            this.BtnEstudiante.BackColor = System.Drawing.Color.Moccasin;
+            this.BtnEstudiante.BackColor = System.Drawing.Color.CornflowerBlue;
             this.BtnEstudiante.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnEstudiante.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnEstudiante.FlatAppearance.BorderSize = 0;
@@ -253,7 +255,7 @@
             // 
             // BtnCatedratico
             // 
-            this.BtnCatedratico.BackColor = System.Drawing.Color.Moccasin;
+            this.BtnCatedratico.BackColor = System.Drawing.Color.CornflowerBlue;
             this.BtnCatedratico.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCatedratico.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnCatedratico.FlatAppearance.BorderSize = 0;
@@ -275,7 +277,7 @@
             // 
             // BtnClases
             // 
-            this.BtnClases.BackColor = System.Drawing.Color.Moccasin;
+            this.BtnClases.BackColor = System.Drawing.Color.CornflowerBlue;
             this.BtnClases.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnClases.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnClases.FlatAppearance.BorderSize = 0;
@@ -297,7 +299,7 @@
             // 
             // BtnCarreras
             // 
-            this.BtnCarreras.BackColor = System.Drawing.Color.Moccasin;
+            this.BtnCarreras.BackColor = System.Drawing.Color.CornflowerBlue;
             this.BtnCarreras.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCarreras.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnCarreras.FlatAppearance.BorderSize = 0;
@@ -319,7 +321,7 @@
             // 
             // BtnCampus
             // 
-            this.BtnCampus.BackColor = System.Drawing.Color.Moccasin;
+            this.BtnCampus.BackColor = System.Drawing.Color.CornflowerBlue;
             this.BtnCampus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCampus.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnCampus.FlatAppearance.BorderSize = 0;
@@ -341,7 +343,7 @@
             // 
             // BtnParametros
             // 
-            this.BtnParametros.BackColor = System.Drawing.Color.SandyBrown;
+            this.BtnParametros.BackColor = System.Drawing.Color.SteelBlue;
             this.BtnParametros.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnParametros.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnParametros.FlatAppearance.BorderSize = 0;
@@ -349,6 +351,7 @@
             this.BtnParametros.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.BtnParametros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnParametros.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.BtnParametros.ForeColor = System.Drawing.SystemColors.Control;
             this.BtnParametros.Image = ((System.Drawing.Image)(resources.GetObject("BtnParametros.Image")));
             this.BtnParametros.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnParametros.Location = new System.Drawing.Point(0, 435);
@@ -372,7 +375,7 @@
             // 
             // BtnResumeMa
             // 
-            this.BtnResumeMa.BackColor = System.Drawing.Color.Moccasin;
+            this.BtnResumeMa.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.BtnResumeMa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnResumeMa.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnResumeMa.FlatAppearance.BorderSize = 0;
@@ -394,7 +397,7 @@
             // 
             // BtnClasesOfer
             // 
-            this.BtnClasesOfer.BackColor = System.Drawing.Color.Moccasin;
+            this.BtnClasesOfer.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.BtnClasesOfer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnClasesOfer.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnClasesOfer.FlatAppearance.BorderSize = 0;
@@ -416,7 +419,7 @@
             // 
             // BtnMatriculas
             // 
-            this.BtnMatriculas.BackColor = System.Drawing.Color.SandyBrown;
+            this.BtnMatriculas.BackColor = System.Drawing.Color.SteelBlue;
             this.BtnMatriculas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMatriculas.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnMatriculas.FlatAppearance.BorderSize = 0;
@@ -424,6 +427,7 @@
             this.BtnMatriculas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.BtnMatriculas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMatriculas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.BtnMatriculas.ForeColor = System.Drawing.SystemColors.Control;
             this.BtnMatriculas.Image = ((System.Drawing.Image)(resources.GetObject("BtnMatriculas.Image")));
             this.BtnMatriculas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnMatriculas.Location = new System.Drawing.Point(0, 304);
@@ -448,7 +452,7 @@
             // 
             // btnPMaestro
             // 
-            this.btnPMaestro.BackColor = System.Drawing.Color.Moccasin;
+            this.btnPMaestro.BackColor = System.Drawing.Color.LightBlue;
             this.btnPMaestro.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPMaestro.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnPMaestro.FlatAppearance.BorderSize = 0;
@@ -469,7 +473,7 @@
             // 
             // BtnPEst
             // 
-            this.BtnPEst.BackColor = System.Drawing.Color.Moccasin;
+            this.BtnPEst.BackColor = System.Drawing.Color.LightBlue;
             this.BtnPEst.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnPEst.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnPEst.FlatAppearance.BorderSize = 0;
@@ -490,7 +494,7 @@
             // 
             // btnNotas
             // 
-            this.btnNotas.BackColor = System.Drawing.Color.Moccasin;
+            this.btnNotas.BackColor = System.Drawing.Color.LightBlue;
             this.btnNotas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNotas.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnNotas.FlatAppearance.BorderSize = 0;
@@ -511,7 +515,7 @@
             // 
             // BtnInformacion
             // 
-            this.BtnInformacion.BackColor = System.Drawing.Color.SandyBrown;
+            this.BtnInformacion.BackColor = System.Drawing.Color.SteelBlue;
             this.BtnInformacion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnInformacion.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnInformacion.FlatAppearance.BorderSize = 0;
@@ -519,6 +523,7 @@
             this.BtnInformacion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DimGray;
             this.BtnInformacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnInformacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.BtnInformacion.ForeColor = System.Drawing.SystemColors.Control;
             this.BtnInformacion.Image = ((System.Drawing.Image)(resources.GetObject("BtnInformacion.Image")));
             this.BtnInformacion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnInformacion.Location = new System.Drawing.Point(0, 144);
@@ -531,6 +536,7 @@
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.LightSkyBlue;
             this.panel3.Controls.Add(this.pictureBox7);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
@@ -540,17 +546,18 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.BackgroundImage")));
+            this.pictureBox7.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.pictureBox7.BackgroundImage = global::PROYECTO_CLASE.Properties.Resources.Logo_UCENM_Estilizado;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox7.Location = new System.Drawing.Point(16, 14);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(241, 141);
+            this.pictureBox7.Size = new System.Drawing.Size(214, 110);
             this.pictureBox7.TabIndex = 3;
             this.pictureBox7.TabStop = false;
             // 
             // panelUsuario
             // 
-            this.panelUsuario.BackColor = System.Drawing.Color.RoyalBlue;
+            this.panelUsuario.BackColor = System.Drawing.Color.DodgerBlue;
             this.panelUsuario.Controls.Add(this.label6);
             this.panelUsuario.Controls.Add(this.pictureBox6);
             this.panelUsuario.Controls.Add(this.label7);
@@ -579,6 +586,7 @@
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.Control;
             this.label6.Location = new System.Drawing.Point(742, 26);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(45, 20);
@@ -588,7 +596,9 @@
             // pictureBox6
             // 
             this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.BackColor = System.Drawing.Color.DodgerBlue;
+            this.pictureBox6.BackgroundImage = global::PROYECTO_CLASE.Properties.Resources.puerta;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox6.Location = new System.Drawing.Point(907, 14);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(69, 52);
@@ -602,6 +612,7 @@
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.Control;
             this.label7.Location = new System.Drawing.Point(902, 69);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(83, 13);
@@ -613,6 +624,7 @@
             this.lblRol.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblRol.AutoSize = true;
             this.lblRol.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRol.ForeColor = System.Drawing.SystemColors.Control;
             this.lblRol.Location = new System.Drawing.Point(706, 54);
             this.lblRol.Name = "lblRol";
             this.lblRol.Size = new System.Drawing.Size(132, 20);
@@ -624,6 +636,7 @@
             this.LblBienvenida.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.LblBienvenida.AutoSize = true;
             this.LblBienvenida.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblBienvenida.ForeColor = System.Drawing.SystemColors.Control;
             this.LblBienvenida.Location = new System.Drawing.Point(332, 46);
             this.LblBienvenida.Name = "LblBienvenida";
             this.LblBienvenida.Size = new System.Drawing.Size(102, 20);
@@ -634,6 +647,7 @@
             // 
             this.lblSede.AutoSize = true;
             this.lblSede.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSede.ForeColor = System.Drawing.SystemColors.Control;
             this.lblSede.Location = new System.Drawing.Point(107, 76);
             this.lblSede.Name = "lblSede";
             this.lblSede.Size = new System.Drawing.Size(36, 13);
@@ -645,6 +659,7 @@
             // 
             this.lblPeriodo.AutoSize = true;
             this.lblPeriodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPeriodo.ForeColor = System.Drawing.SystemColors.Control;
             this.lblPeriodo.Location = new System.Drawing.Point(107, 54);
             this.lblPeriodo.Name = "lblPeriodo";
             this.lblPeriodo.Size = new System.Drawing.Size(26, 13);
@@ -656,6 +671,7 @@
             // 
             this.lblPlan.AutoSize = true;
             this.lblPlan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlan.ForeColor = System.Drawing.SystemColors.Control;
             this.lblPlan.Location = new System.Drawing.Point(107, 31);
             this.lblPlan.Name = "lblPlan";
             this.lblPlan.Size = new System.Drawing.Size(32, 13);
@@ -667,6 +683,7 @@
             // 
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.ForeColor = System.Drawing.SystemColors.Control;
             this.lblUsuario.Location = new System.Drawing.Point(107, 10);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(29, 13);
@@ -719,6 +736,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.Control;
             this.label5.Location = new System.Drawing.Point(38, 54);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 13);
@@ -729,6 +747,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Control;
             this.label4.Location = new System.Drawing.Point(39, 31);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(39, 13);
@@ -739,6 +758,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.Control;
             this.label3.Location = new System.Drawing.Point(38, 10);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 13);
@@ -749,6 +769,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(38, 76);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 13);
@@ -757,12 +778,13 @@
             // 
             // panelcontenedor
             // 
-            this.panelcontenedor.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.panelcontenedor.BackColor = System.Drawing.Color.LightBlue;
             this.panelcontenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelcontenedor.Location = new System.Drawing.Point(281, 131);
             this.panelcontenedor.Name = "panelcontenedor";
             this.panelcontenedor.Size = new System.Drawing.Size(1027, 552);
             this.panelcontenedor.TabIndex = 9;
+            this.panelcontenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panelcontenedor_Paint);
             // 
             // MENU
             // 

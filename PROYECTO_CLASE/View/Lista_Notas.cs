@@ -15,22 +15,14 @@ namespace PROYECTO_CLASE.View
     public partial class Lista_Notas : Form
     {
         string FiltroCat = Modulo_ParametrosActivos.IdcatedraticoJop;
-        //string FiltoAl = Modulo_ParametrosActivos.NombreJop + " " + Modulo_ParametrosActivos.ApellidoJop;
-        string FiltoAl = Modulo_ParametrosActivos.IdAlumnoJop;
+        string FiltoAl = Modulo_ParametrosActivos.NombreJop + " " + Modulo_ParametrosActivos.ApellidoJop;
         public Lista_Notas()
         {
             InitializeComponent();
             CargarDatosNota();
             DGVNotas.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            if (Modulo_ParametrosActivos.RolJop == "Estudiante")
-            {
-                FiltradoAlumno();
-            }
-            else if (Modulo_ParametrosActivos.RolJop == "CATEDRATICO(A)")
-            {
-                cate();
-            }
-
+            FiltradoAlumno();
+            cate();
         }
         public void CargarDatosNota()
         {
@@ -41,7 +33,7 @@ namespace PROYECTO_CLASE.View
 
         void FiltradoAlumno()
         {
-            Modulo_Notas.GetNotas.DefaultView.RowFilter = $"IdAlumno like'%{FiltoAl}%'";
+            Modulo_Notas.GetNotas.DefaultView.RowFilter = $"IdCatedratico like'%{FiltoAl}%'";
         }
         void cate ()
         {
@@ -72,10 +64,9 @@ namespace PROYECTO_CLASE.View
 
         private void BtnMatricular_Click(object sender, EventArgs e)
         {
-            Registro_Edicion_Notas Formulario = new Registro_Edicion_Notas(DGVNotas.SelectedCells[0].Value.ToString(), DGVNotas.SelectedCells[2].Value.ToString());
+            Registro_Edicion_Notas Formulario = new Registro_Edicion_Notas(DGVNotas.SelectedCells[1].Value.ToString());
             Formulario.Padre = this;
             Formulario.Show();
-           
         }
 
         private void DGVNotas_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -83,7 +74,6 @@ namespace PROYECTO_CLASE.View
             if(Modulo_ParametrosActivos.RolJop == "Estudiante")
             {
                 BtnMatricular.Visible = false;
-                FiltradoAlumno();
             }
             else
                 if (Modulo_ParametrosActivos.RolJop == "CATEDRATICO(A)")
@@ -92,5 +82,9 @@ namespace PROYECTO_CLASE.View
             }
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

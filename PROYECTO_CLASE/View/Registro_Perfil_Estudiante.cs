@@ -249,5 +249,10 @@ namespace PROYECTO_CLASE.View
                 TxtIdSede.Text = valores[0];
             }
         }
+
+        private void Registro_Perfil_Estudiante_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
