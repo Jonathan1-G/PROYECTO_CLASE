@@ -342,6 +342,188 @@
   <ItemGroup>
     <None Include="Resources\icons8-eliminar-48.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\agregar-alumno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carpeta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Barrel S.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estudiantes1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fuerte.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\céu azul.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fuerte1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\céu azul1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Luxpaper.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Barrel S1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Liquitex.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Liquitex1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-archivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Barrel S2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fuerte2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carpeta1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Barrel S3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\céu azul2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profesional.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrera-profesional.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fuerte3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\céu azul3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profesional1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profesional2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fuerte4.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Barrel S4.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maestro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-estudiante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\celeste.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Liquitex2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fuerte5.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aprender-en-linea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presentacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\celeste1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Barrel S5.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\educacion-en-linea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-archivo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-archivo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tesis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plan-de-estudios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nueva-cuenta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proteccion-de-contrasena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colegio %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario-final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo-UCENM-Estilizado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cultura universitaria.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puerta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar-sesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar-sesion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\céu azul4.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar-el-archivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profesional3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-archivo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar-el-archivo1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
