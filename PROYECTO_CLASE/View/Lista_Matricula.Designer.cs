@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lista_Matricula));
             this.label1 = new System.Windows.Forms.Label();
-            this.TxtFiltrado = new System.Windows.Forms.TextBox();
             this.DGVMatricula = new System.Windows.Forms.DataGridView();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.BtnEliminar = new System.Windows.Forms.Button();
@@ -42,6 +41,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.TxtFiltrado = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.DGVMatricula)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -59,23 +59,11 @@
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(894, 42);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(503, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(575, 31);
+            this.label1.Size = new System.Drawing.Size(403, 22);
             this.label1.TabIndex = 97;
             this.label1.Text = "INICIO > MATRICULA > RESUMEN MATRICULA";
-            // 
-            // TxtFiltrado
-            // 
-            this.TxtFiltrado.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.TxtFiltrado.ForeColor = System.Drawing.SystemColors.Window;
-            this.TxtFiltrado.Location = new System.Drawing.Point(806, 202);
-            this.TxtFiltrado.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.TxtFiltrado.Name = "TxtFiltrado";
-            this.TxtFiltrado.Size = new System.Drawing.Size(691, 26);
-            this.TxtFiltrado.TabIndex = 94;
-            this.TxtFiltrado.TextChanged += new System.EventHandler(this.TxtFiltrado_TextChanged);
             // 
             // DGVMatricula
             // 
@@ -83,11 +71,10 @@
             this.DGVMatricula.BackgroundColor = System.Drawing.Color.SlateGray;
             this.DGVMatricula.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.DGVMatricula.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGVMatricula.Location = new System.Drawing.Point(21, 385);
-            this.DGVMatricula.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.DGVMatricula.Location = new System.Drawing.Point(12, 209);
             this.DGVMatricula.Name = "DGVMatricula";
             this.DGVMatricula.RowHeadersWidth = 62;
-            this.DGVMatricula.Size = new System.Drawing.Size(1480, 302);
+            this.DGVMatricula.Size = new System.Drawing.Size(881, 239);
             this.DGVMatricula.TabIndex = 93;
             this.DGVMatricula.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DGVMatricula_RowHeaderMouseClick);
             // 
@@ -96,10 +83,9 @@
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.BackColor = System.Drawing.Color.Teal;
             this.pictureBox2.Image = global::PROYECTO_CLASE.Properties.Resources.tesis;
-            this.pictureBox2.Location = new System.Drawing.Point(18, 9);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(134, 134);
+            this.pictureBox2.Size = new System.Drawing.Size(89, 87);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 101;
             this.pictureBox2.TabStop = false;
@@ -112,10 +98,9 @@
             this.BtnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnEliminar.Location = new System.Drawing.Point(159, 174);
-            this.BtnEliminar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnEliminar.Location = new System.Drawing.Point(106, 113);
             this.BtnEliminar.Name = "BtnEliminar";
-            this.BtnEliminar.Size = new System.Drawing.Size(87, 66);
+            this.BtnEliminar.Size = new System.Drawing.Size(58, 43);
             this.BtnEliminar.TabIndex = 98;
             this.BtnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -127,10 +112,9 @@
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.BackColor = System.Drawing.Color.PaleTurquoise;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(711, 182);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(474, 118);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(69, 58);
+            this.pictureBox1.Size = new System.Drawing.Size(46, 38);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 96;
             this.pictureBox1.TabStop = false;
@@ -139,10 +123,9 @@
             // 
             this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox6.Image = global::PROYECTO_CLASE.Properties.Resources.Red_Barrel_S2;
-            this.pictureBox6.Location = new System.Drawing.Point(-4, -6);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox6.Location = new System.Drawing.Point(-3, -4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(1545, 149);
+            this.pictureBox6.Size = new System.Drawing.Size(923, 97);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 100;
             this.pictureBox6.TabStop = false;
@@ -151,10 +134,9 @@
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox3.Image = global::PROYECTO_CLASE.Properties.Resources.celeste1;
-            this.pictureBox3.Location = new System.Drawing.Point(-4, 158);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox3.Location = new System.Drawing.Point(-3, 103);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(1545, 149);
+            this.pictureBox3.Size = new System.Drawing.Size(923, 97);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 102;
             this.pictureBox3.TabStop = false;
@@ -166,10 +148,9 @@
             this.label3.BackColor = System.Drawing.Color.PaleTurquoise;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(40, 252);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(27, 164);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(325, 29);
+            this.label3.Size = new System.Drawing.Size(221, 20);
             this.label3.TabIndex = 107;
             this.label3.Text = "Eliminar Clase Matriculada";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -182,10 +163,9 @@
             this.label2.BackColor = System.Drawing.Color.Teal;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(160, 45);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(107, 29);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(334, 29);
+            this.label2.Size = new System.Drawing.Size(234, 20);
             this.label2.TabIndex = 108;
             this.label2.Text = "RESUMEN DE MATRICULA";
             // 
@@ -193,10 +173,9 @@
             // 
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox4.Image = global::PROYECTO_CLASE.Properties.Resources.Every_Monday_is_a_Blue_Monday;
-            this.pictureBox4.Location = new System.Drawing.Point(166, 80);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox4.Location = new System.Drawing.Point(111, 52);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(345, 15);
+            this.pictureBox4.Size = new System.Drawing.Size(230, 10);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 118;
             this.pictureBox4.TabStop = false;
@@ -205,10 +184,9 @@
             // 
             this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox5.Image = global::PROYECTO_CLASE.Properties.Resources.Every_Monday_is_a_Blue_Monday;
-            this.pictureBox5.Location = new System.Drawing.Point(854, 242);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox5.Location = new System.Drawing.Point(565, 154);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(588, 15);
+            this.pictureBox5.Size = new System.Drawing.Size(294, 10);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 119;
             this.pictureBox5.TabStop = false;
@@ -220,20 +198,28 @@
             this.label4.BackColor = System.Drawing.Color.PaleTurquoise;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(704, 252);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(469, 164);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 29);
+            this.label4.Size = new System.Drawing.Size(56, 20);
             this.label4.TabIndex = 120;
             this.label4.Text = "Filtrar";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // TxtFiltrado
+            // 
+            this.TxtFiltrado.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.TxtFiltrado.Location = new System.Drawing.Point(530, 128);
+            this.TxtFiltrado.Name = "TxtFiltrado";
+            this.TxtFiltrado.Size = new System.Drawing.Size(363, 20);
+            this.TxtFiltrado.TabIndex = 121;
+            // 
             // Lista_Matricula
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(1516, 703);
+            this.ClientSize = new System.Drawing.Size(913, 457);
+            this.Controls.Add(this.TxtFiltrado);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -243,11 +229,9 @@
             this.Controls.Add(this.BtnEliminar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.TxtFiltrado);
             this.Controls.Add(this.DGVMatricula);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox3);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Lista_Matricula";
             this.Text = "Lista_Matricula";
             ((System.ComponentModel.ISupportInitialize)(this.DGVMatricula)).EndInit();
@@ -266,7 +250,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox TxtFiltrado;
         private System.Windows.Forms.DataGridView DGVMatricula;
         private System.Windows.Forms.Button BtnEliminar;
         private System.Windows.Forms.PictureBox pictureBox6;
@@ -277,5 +260,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox TxtFiltrado;
     }
 }

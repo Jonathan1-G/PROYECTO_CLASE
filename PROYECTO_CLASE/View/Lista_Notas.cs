@@ -25,11 +25,14 @@ namespace PROYECTO_CLASE.View
             if (Modulo_ParametrosActivos.RolJop == "Estudiante")
             {
                 FiltradoAlumno();
+                lblEditarNotas.Visible = false;
             }
             else if (Modulo_ParametrosActivos.RolJop == "CATEDRATICO(A)")
             {
                 cate();
+                lblEditarNotas.Visible = false;
             }
+            
 
         }
         public void CargarDatosNota()
@@ -61,6 +64,7 @@ namespace PROYECTO_CLASE.View
                 if (Modulo_ParametrosActivos.RolJop == "Estudiante")
             {
                 BtnMatricular.Visible = false;
+                
             }
         }
 
@@ -83,12 +87,14 @@ namespace PROYECTO_CLASE.View
             if (Modulo_ParametrosActivos.RolJop == "Estudiante")
             {
                 BtnMatricular.Visible = false;
+                lblEditarNotas.Visible = false;
                 FiltradoAlumno();
             }
             else
                 if (Modulo_ParametrosActivos.RolJop == "CATEDRATICO(A)")
             {
                 BtnMatricular.Visible = true;
+                lblEditarNotas.Visible = true;
             }
         }
 

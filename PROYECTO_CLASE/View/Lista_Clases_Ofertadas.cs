@@ -27,7 +27,7 @@ namespace PROYECTO_CLASE.View
         public void CargarDatosCla()
         {
             new Clases_Controller().ListarClases();
-            // Agregamos una columna para mostrar si ya está matriculada
+            // Se agrega una columna para mostrar si ya está matriculada
             if (!Modulo_Clases.GetClases.Columns.Contains("Matriculada"))
                 Modulo_Clases.GetClases.Columns.Add("Matriculada", typeof(bool));
 
@@ -69,16 +69,19 @@ namespace PROYECTO_CLASE.View
         private void DGVClases_Ofertadas_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             BtnMatricular.Visible = true;
+            lblAgregarClases.Visible = true;
         }
 
         private void DGVClases_Ofertadas_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             BtnMatricular.Visible = false;
+            lblAgregarClases.Visible = false;
         }
 
         private void DGVClases_Ofertadas_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             BtnMatricular.Visible = false;
+            lblAgregarClases.Visible = false;
         }
 
         private void BtnMatricular_Click(object sender, EventArgs e)

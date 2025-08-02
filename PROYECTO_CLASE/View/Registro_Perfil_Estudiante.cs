@@ -20,6 +20,7 @@ namespace PROYECTO_CLASE.View
             InitializeComponent();
             Inavilitar();
             BtnGuardar.Visible = false;
+            lblGuardarEdicion.Visible = false;
             CargarDatos();
             CargarCarrera();
             CargarSede();
@@ -106,6 +107,7 @@ namespace PROYECTO_CLASE.View
         {
             Avilitar();
             BtnGuardar.Visible = true;
+            lblGuardarEdicion.Visible = true;
         }
 
         private void BtnGuardar_Click(object sender, EventArgs e)
@@ -113,6 +115,7 @@ namespace PROYECTO_CLASE.View
             Editando();
             Inavilitar();
             BtnGuardar.Visible = false;
+            lblGuardarEdicion.Visible = false;
         }
 
         public void CargarCarrera()
