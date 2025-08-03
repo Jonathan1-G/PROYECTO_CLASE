@@ -27,7 +27,7 @@ namespace PROYECTO_CLASE.View
         public void CargarDatosCla()
         {
             new Clases_Controller().ListarClases();
-            // Se agrega una columna para mostrar si ya está matriculada
+            // Se agrega una columna para mostrar si ya está matriculada la clase
             if (!Modulo_Clases.GetClases.Columns.Contains("Matriculada"))
                 Modulo_Clases.GetClases.Columns.Add("Matriculada", typeof(bool));
 
@@ -50,38 +50,17 @@ namespace PROYECTO_CLASE.View
 
         void Filtrado()
         {
-            Modulo_Clases.GetClases.DefaultView.RowFilter = $"IdAsignatura+Asignatura+Sede like'%{TxtFiltrado.Text}%'";
-
-        }
-
-        private void TxtFiltrado_TextChanged(object sender, EventArgs e)
-        {
-            if (TxtFiltrado.Text == "")
-            {
-                FiltradoGeneral();
-            }
-            else
-                Filtrado();
-
+            Modulo_Clases.GetClases.DefaultView.RowFilter = $"IdAsignatura+Asignatura+Sede like'%{TxtFiltrado.Text}%' and Carrera like'%{Filtro}%'";
 
         }
 
         private void DGVClases_Ofertadas_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-            BtnMatricular.Visible = true;
-            lblAgregarClases.Visible = true;
-        }
-
-        private void DGVClases_Ofertadas_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            BtnMatricular.Visible = false;
-            lblAgregarClases.Visible = false;
-        }
-
-        private void DGVClases_Ofertadas_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            BtnMatricular.Visible = false;
-            lblAgregarClases.Visible = false;
+            if (Modulo_ParametrosActivos.RolJop == "Estudiante")
+            {
+                BtnMatricular.Visible = true;
+                lblAgregarClases.Visible = true;
+            }
         }
 
         private void BtnMatricular_Click(object sender, EventArgs e)
@@ -99,6 +78,16 @@ namespace PROYECTO_CLASE.View
             Registro_ClaseOfertada Formulario = new Registro_ClaseOfertada(DGVClases_Ofertadas.SelectedCells[1].Value.ToString());
             Formulario.Padre = this;
             Formulario.Show();
+        }
+
+        private void TxtFiltrado_TextChanged_1(object sender, EventArgs e)
+        {
+            if (TxtFiltrado.Text == "")
+            {
+                FiltradoGeneral();
+            }
+            else
+                Filtrado();
         }
     }
 }

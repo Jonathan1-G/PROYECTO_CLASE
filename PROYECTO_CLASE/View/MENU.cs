@@ -105,6 +105,9 @@ namespace PROYECTO_CLASE.View
             else
                 if(Modulo_ParametrosActivos.RolJop == "ADMIN")
             {
+                BtnPEst.Visible= false;
+                btnPMaestro.Visible= false;
+                BtnResumeMa.Visible = false;
                 lblUsuario.Visible = false;
                 lblPlan.Visible = false;
                 lblSede.Visible = false;

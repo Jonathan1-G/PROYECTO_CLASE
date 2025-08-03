@@ -71,6 +71,17 @@ namespace PROYECTO_CLASE.View
             Alu.Telefono = TxtTelefono.Text;
             Alu.Correo = TxtCorreo.Text;
 
+            Modulo_ParametrosActivos.IdAlumnoJop = txtIdAlum.Text;
+            Modulo_ParametrosActivos.NombreJop = TxtNombre.Text;
+            Modulo_ParametrosActivos.ApellidoJop = TxtApellido.Text;
+            Modulo_ParametrosActivos.IdentidadJop = TxtIdentidad.Text;
+            Modulo_ParametrosActivos.CarreraJop = CBCarrera.Text;
+            Modulo_ParametrosActivos.IdCarreraJop = TxtIdCarrera.Text;
+            Modulo_ParametrosActivos.SedeJop = CBSede.Text;
+            Modulo_ParametrosActivos.IdSedeJop = TxtIdSede.Text;
+            Modulo_ParametrosActivos.TelefonoJop = TxtTelefono.Text;
+            Modulo_ParametrosActivos.CorreoJop = TxtCorreo.Text;
+
             Modulo_Usuario Usu = new Modulo_Usuario();
             Usu.IdUsuario = Modulo_ParametrosActivos.IdUsuarioJop;
             Usu.Usuario = Modulo_ParametrosActivos.UsuarioJop;

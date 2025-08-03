@@ -63,6 +63,14 @@ namespace PROYECTO_CLASE.View
             Cat.Telefono = TxtTelefono.Text;
             Cat.Correo = TxtCorreo.Text;
 
+            Modulo_ParametrosActivos.NombreJop = TxtNombre.Text;
+            Modulo_ParametrosActivos.ApellidoJop = TxtApellido.Text;
+            Modulo_ParametrosActivos.IdentidadJop = TxtIdentidad.Text;
+            Modulo_ParametrosActivos.SedeJop = CBSede.Text;
+            Modulo_ParametrosActivos.IdSedeJop = TxtIdSede.Text;
+            Modulo_ParametrosActivos.TelefonoJop = TxtTelefono.Text;
+            Modulo_ParametrosActivos.CorreoJop = TxtCorreo.Text;
+
             Modulo_Usuario Usu = new Modulo_Usuario();
             Usu.IdUsuario = Modulo_ParametrosActivos.IdUsuarioJop;
             Usu.Usuario = Modulo_ParametrosActivos.UsuarioJop;
@@ -91,6 +99,7 @@ namespace PROYECTO_CLASE.View
             TxtIdSede.Text = Modulo_ParametrosActivos.IdSedeJop;
             TxtTelefono.Text = Modulo_ParametrosActivos.TelefonoJop;
             TxtCorreo.Text = Modulo_ParametrosActivos.CorreoJop;
+
         }
 
         private void BtnEdicion_Click(object sender, EventArgs e)

@@ -52,7 +52,8 @@ namespace PROYECTO_CLASE.View
         }
         void Filtrado()
         {
-            Modulo_Clases.GetClases.DefaultView.RowFilter = $"Codigo+Clase+Dia+Alumno+IdAlumno like'%{TxtFiltrado.Text}%'";
+                Modulo_Notas.GetNotas.DefaultView.RowFilter = $"Codigo+Clases+Alumno+IdAlumno like'%{TxtFiltrado.Text}%' and IdCatedratico like'%{FiltroCat}%'";
+            
         }
         void Validacion()
         {
