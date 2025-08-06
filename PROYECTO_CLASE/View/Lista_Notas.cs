@@ -15,7 +15,7 @@ namespace PROYECTO_CLASE.View
     public partial class Lista_Notas : Form
     {
         string FiltroCat = Modulo_ParametrosActivos.IdcatedraticoJop;
-        //string FiltoAl = Modulo_ParametrosActivos.NombreJop + " " + Modulo_ParametrosActivos.ApellidoJop;
+       
         string FiltoAl = Modulo_ParametrosActivos.IdAlumnoJop;
         public Lista_Notas()
         {
