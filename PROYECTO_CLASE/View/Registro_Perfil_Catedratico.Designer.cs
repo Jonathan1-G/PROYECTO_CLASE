@@ -329,6 +329,7 @@
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Registro_Perfil_Catedratico";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro_Perfil_Catedratico";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();

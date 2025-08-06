@@ -370,6 +370,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
             this.Name = "Registro_Perfil_Estudiante";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro_Perfil_Estudiante";
             this.Load += new System.EventHandler(this.Registro_Perfil_Estudiante_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

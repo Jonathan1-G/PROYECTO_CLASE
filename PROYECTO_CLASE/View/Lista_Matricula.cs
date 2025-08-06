@@ -33,7 +33,7 @@ namespace PROYECTO_CLASE.View
         }
         void Filtrado()
         {
-            Modulo_Clases.GetClases.DefaultView.RowFilter = $"Codigo+Clase+Dia like'%{TxtFiltrado.Text}%'";
+            Modulo_Matricula.GetMatricula.DefaultView.RowFilter = $"Codigo+Clase+Dia like'%{TxtFiltrado.Text}%' and Alumno like'%{Filtro}%'";
 
         }
         void EiminarRegistro()
@@ -58,14 +58,14 @@ namespace PROYECTO_CLASE.View
             BtnEliminar.Enabled = true;
         }
 
-        private void TxtFiltrado_TextChanged(object sender, EventArgs e)
-        {
-            Filtrado();
-        }
-
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void TxtFiltrado_TextChanged_1(object sender, EventArgs e)
+        {
+            Filtrado();
         }
     }
 }

@@ -212,6 +212,7 @@
             this.TxtFiltrado.Name = "TxtFiltrado";
             this.TxtFiltrado.Size = new System.Drawing.Size(363, 20);
             this.TxtFiltrado.TabIndex = 121;
+            this.TxtFiltrado.TextChanged += new System.EventHandler(this.TxtFiltrado_TextChanged_1);
             // 
             // Lista_Matricula
             // 
